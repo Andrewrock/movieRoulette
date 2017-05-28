@@ -34,6 +34,7 @@ import gulpLoadPlugins from 'gulp-load-plugins';
 import {output as pagespeed} from 'psi';
 import pkg from './package.json';
 var scsslint = require('gulp-scss-lint');
+var deploy = require('gulp-gh-pages');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -42,6 +43,11 @@ gulp.task('scss-lint', () =>
 gulp.src('app/styles/**/*.scss')
   .pipe(scsslint())
 );
+
+gulp.task('deploy', function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
+});
 
 
 // Lint JavaScript

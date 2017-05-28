@@ -1,0 +1,23 @@
+.search-header {
+  flex: 0 0 $width;
+  padding: 24px 12px;
+
+  h1 {
+    font-size: $largest-heading;
+  }
+}
+
+.search {
+  flex: 0 0 $width;
+}
+
+.search-input-wrapper {
+
+  input {
+    font-size: $h1;
+  }
+}
+
+.random-wrapper {
+  padding: 12px 0;
+}

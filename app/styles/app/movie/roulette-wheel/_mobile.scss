@@ -1,0 +1,39 @@
+.path {
+  animation: draw 10s linear infinite;
+}
+
+.ball {
+  animation: levitate .5s alternate ease-in-out infinite;
+  fill: $pink;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes levitate {
+
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(0, 2px);
+  }
+}
+
+.movie-roulette {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 12px;
+  max-width: 500px;
+
+  svg {
+    fill: $pink;
+    font-size: $h2;
+    width: 148px;
+  }
+}
+

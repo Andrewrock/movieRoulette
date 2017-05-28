@@ -1,0 +1,193 @@
+<div ng-controller="resultTv">
+  <div class="movie-nav">
+    <a class="return" href="#/tv">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.502 52.502">
+        <path d="M21.524 16.094V4.046L1.416 23.998l20.108 20.143V32.094s17.598-4.355 29.712 16c0 0 3.02-15.536-10.51-26.794.001-.001-5.991-5.604-19.202-5.206z"/>
+        <path d="M51.718 50.857l-1.341-2.252c-10.214-17.164-24.401-16.203-27.853-15.68v13.634L0 23.995 22.524 1.644v13.431c12.728-.103 18.644 5.268 18.886 5.494 13.781 11.465 10.839 27.554 10.808 27.715l-.5 2.573zM25.645 30.702c5.761 0 16.344 1.938 24.854 14.376.128-4.873-.896-15.094-10.41-23.01-.099-.088-5.982-5.373-18.533-4.975l-1.03.03V6.447L2.832 24.001l17.692 17.724V31.311l.76-.188c.07-.018 1.73-.421 4.361-.421z"/>
+      </svg>
+      Go Back
+    </a>
+  </div>
+  <div class="show-me-wrapper">
+    <h1 class="checkbox-heading"> Filter's </h1>
+    <div class="nested-form-wrapper">
+      <div class="option-wrapper">
+        <input type="checkbox" class="checkbox" name="tv-poster" id="poster" ng-model="tvOptions.poster">
+        <label class="label-text" for="poster">Poster</label>
+      </div>
+      <div class="option-wrapper">
+        <input type="checkbox" class="checkbox" name="tv-info" id="info" ng-model="tvOptions.info">
+        <label class="label-text" for="info">Info</label>
+      </div>
+      <div class="option-wrapper">
+        <input type="checkbox" class="checkbox" name="tv-related" id="related" ng-model="tvOptions.related">
+        <label for="related">Similar</label>
+      </div>
+      <div class="option-wrapper">
+        <input type="checkbox" class="checkbox" name="tv-cast" id="cast" ng-model="tvOptions.cast">
+        <label for="cast">Season</label>
+      </div>
+      <div class="option-wrapper">
+        <input type="checkbox" class="checkbox" name="tv-extras" id="extras" ng-model="tvOptions.extras">
+        <label for="extras">Extras</label>
+      </div>
+      <div class="option-wrapper">
+        <input type="checkbox" class="checkbox" name="tv-seasons" id="seasons" ng-model="tvOptions.seasons">
+        <label for="seasons">Seasons</label>
+      </div>
+    </div>
+  </div>
+  <div class="movie-container tv">
+    <div class="cell cell--fig1" ng-show="tvOptions.poster">
+      <img ng-src="{{ baseUrl + tvDetail.poster_path }}" alt="Movie Cover Not Available" />
+    </div>
+    <div class="cell" ng-show="tvOptions.info">
+      <div class="info animated fadeInUp fade">
+        <h1 class="animated-link">
+          <a ng-href="{{ tvDetail.homepage }}" target="_blank">
+            {{ tvDetail.name}}
+          </a>
+        </h1>
+        <div class="nice-to-know">
+          <h5> First aired:
+            <span class="details">
+            {{ tvDetail.first_air_date | date : "dd.MM.y" }}
+            </span>
+          </h5>
+          <h5> Last air date:
+            <span class="details">
+            {{ tvDetail.last_air_date | date : "dd.MM.y" }}
+            </span>
+          </h5>
+          <h5> Number of episodes:
+            <span class="details">
+            {{ tvDetail.number_of_episodes }}
+            </span>
+          </h5>
+          <h5> Number of seasons:
+            <span class="details">
+            {{ tvDetail.number_of_seasons }}
+            </span>
+          </h5>
+          <h5> Vote average:
+            <span class="details">
+            {{ tvDetail.vote_average}} / 10
+            </span>
+          </h5>
+          <h5> Vote count:
+            <span class="details">
+            {{ tvDetail.vote_count}}
+            </span>
+          </h5>
+          <h5>
+            Runtime:
+            <ul>
+              <li ng-repeat="episode in tvDetail.episode_run_time">
+                {{ episode }} mins
+              </li>
+            </ul>
+          </h5>
+          <h5>
+            Genre:
+            <ul>
+              <li ng-repeat="genre in tvDetail.genres">
+                {{genre.name}},
+              </li>
+            </ul>
+          </h5>
+          <h5> In production:
+            <span class="details">
+            {{ tvDetail.in_production }}
+            </span>
+          </h5>
+          <h5>
+            Networks:
+            <ul>
+              <li ng-repeat="network in tvDetail.networks">
+                {{ network.name }}
+              </li>
+            </ul>
+          </h5>
+          <h5 class="full"> Status:
+            <span class="details">
+            {{ tvDetail.status}}
+            </span>
+          </h5>
+          <h5> Type of show:
+            <span class="details">
+            {{ tvDetail.type}}
+            </span>
+          </h5>
+        </div>
+        <div class="description">
+          <p> {{ tvDetail.overview }} </p>
+        </div>
+      </div>
+    </div>
+    <div class="cell" ng-show="tvOptions.related">
+      <div class="animated fadeInRight">
+        <hr/>
+        <h6>Similar Shows </h6>
+        <ul class="related-results tv">
+          <li ng-repeat="show in relatedTvResults | limitTo: 12" class="related-item">
+            <span class="related-image">
+            <img ng-src="{{ baseUrl + show.poster_path }}" alt="tv Cover Not Available"/>
+            </span>
+            <span class="related-wrapper">
+            <a class="related-link" href="#tvResults/{{show.id}}">{{ show.name }}</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="cell casts" ng-show="tvOptions.cast">
+      <div class="animated fadeInUp">
+        <hr/>
+        <h6 class="cell-heading"> Cast </h6>
+        <div class="cast-wrapper">
+          <div class="cast" ng-repeat="cast in castDetail.cast | limitTo: 15">
+            <img class="profile" ng-src="{{ baseUrl + cast.profile_path }}" onerror="this.src='images/users.svg'"/>
+            <div class="cast-info">
+              <h6> {{ cast.name }} </h6>
+              <h6> {{ cast.character }} </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cell extras" ng-show="tvOptions.extras">
+      <div class="animated fadeInUp">
+        <hr/>
+        <h6 class="cell-heading"> Extras </h6>
+        <div class="nice-to-have">
+          <a ng-href="https://www.youtube.com/results?search_query={{ tvDetail.title }} +trailer" target="_blank"
+             class="movie-btn">
+            Trailer
+          </a>
+          <a ng-href="http://www.theost.com/search/custom/?key={{ tvDetail.title }}" target="_blank" class="movie-btn">
+            Soundtrack
+          </a>
+          <a ng-href="http://www.primewire.ch/?keywords={{ tvDetail.title }}" target="_blank" class="movie-btn">Stream
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="cell" ng-show="tvOptions.seasons">
+      <div class="animated fadeInUp">
+        <hr/>
+        <h6 class="cell-heading"> Seasons </h6>
+        <div class="cast-wrapper">
+          <div class="cast" ng-repeat="season in tvDetail.seasons | limitTo: 15">
+            <img class="profile" ng-src="{{ baseUrl + season.poster_path }}" onerror="this.src='images/users.svg'"/>
+            <div class="cast-info">
+              <h6> Air date: <span>{{ season.air_date }}</span></h6>
+              <h6> Episode Count: <span>{{ season.episode_count }}</span></h6>
+              <h6> Season:  <span>{{ season.season_number }}</span></h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

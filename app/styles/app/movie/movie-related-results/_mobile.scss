@@ -1,0 +1,42 @@
+$related-image-height: 150px;
+
+.related-results {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  list-style: none;
+  overflow-x: scroll;
+  padding: 12px;
+}
+
+.related-item {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 50%;
+  flex-flow: column wrap;
+  padding-right: 12px;
+}
+
+.related-image {
+  display: flex;
+  height: $related-image-height;
+  width: $width;
+
+  img {
+    height: auto;
+    max-width: $width;
+  }
+}
+
+.related-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: $width;
+}
+
+.related-link {
+  display: block;
+  font-size: $h5;
+  text-align: center;
+  text-decoration: none;
+}

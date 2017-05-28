@@ -1,0 +1,86 @@
+$language-max-width: 130px;
+
+.movie-link {
+  font-family: $raleway;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  margin: 0 0 $headings-margin-bottom;
+}
+
+.movie-poster {
+  height: auto;
+}
+
+.extras {
+  margin-bottom: 24px;
+}
+
+.animated-link {
+  margin-bottom: 24px;
+  max-width: 95%;
+
+  a {
+    background-image: $gradient;
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: $h1;
+    line-height: 1.5;
+    transition: background-position .4s ease;
+
+    &:hover {
+      background-position: 0 36px;
+    }
+  }
+}
+
+.nice-to-know {
+  justify-content: space-between;
+
+  h5 {
+    flex: 0 0 33%;
+    margin-bottom: 24px;
+  }
+
+  .full {
+    flex: 0 0 33%;
+  }
+
+}
+
+.details {
+  display: block;
+  font-family: $body;
+  padding: 6px 0 0;
+}
+
+.production {
+
+  h5 {
+    flex: 0 0 $width;
+    font-family: $inconsolata;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+
+  ul {
+    flex-flow: row wrap;
+
+    li {
+      flex: 0 0 $width;
+      font-family: $body;
+      padding: 12px 0;
+    }
+  }
+}
+
+.nice-to-have {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.currency {
+  letter-spacing: normal;
+}

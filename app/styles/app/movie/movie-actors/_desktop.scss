@@ -1,0 +1,19 @@
+// tablet cast //
+@media screen and (min-width: $desktop-width) and (max-width: $tablet-width) {
+  .cast {
+    flex: 0 0 33%;
+  }
+}
+
+// Desktop cast//
+@media screen and (min-width: $tablet-width) {
+  .cast-wrapper {
+    flex-flow: row wrap;
+  }
+
+  .cast {
+    display: flex;
+    flex: 0 0 20%;
+    justify-content: center;
+  }
+}

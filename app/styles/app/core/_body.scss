@@ -1,0 +1,19 @@
+$desktop-width: 624px;
+$tablet-width: 840px;
+$mobile-only: 600px;
+$height: 100%;
+$width: 100%;
+$max-width: 1104px;
+
+body {
+  background-color: $bg;
+  color: $body-color;
+  font-family: $body;
+  height: $height;
+  line-height: $line-height-base;
+  width: $width;
+}
+
+a {
+  color: $body-color;
+}

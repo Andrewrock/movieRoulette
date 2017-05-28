@@ -1,0 +1,109 @@
+$min-width: 320;
+$min-aspect: 16 9;
+$min-height: $min-width * (nth($min-aspect, 2) / nth($min-aspect, 1));
+$max-width: 320;
+$max-aspect: 4 1;
+$max-height: $max-width * (nth($max-aspect, 2) / nth($max-aspect, 1));
+
+.movie-result-wrapper {
+  display: flex;
+  flex: 0 0 $width;
+  flex-flow: row nowrap;
+  margin: auto;
+  min-height: 400px;
+  overflow-x: scroll;
+  width: $width;
+}
+
+.movie-result-gallery {
+  display: flex;
+  flex-flow: column wrap;
+  width: $width;
+}
+
+.result-title {
+  flex: 0 0 $width;
+  font-family: $bungee;
+  font-size: 3.5rem;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.movie-card {
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 $width;
+  flex-flow: column wrap;
+  max-width: 300px;
+  padding: 12px;
+
+  h2 {
+    font-weight: 700;
+  }
+}
+
+.card-header {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    height: $height;
+    width: $width;
+  }
+}
+
+.result-item-heading {
+  font-weight: 700;
+  padding: 12px 0;
+  text-align: center;
+}
+
+
+.dots {
+  display: flex;
+  flex: 0 0 $width;
+  flex-flow: row wrap;
+  margin: 0 auto;
+
+  ul {
+    align-items: center;
+    cursor: default;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 24px 12px;
+  }
+}
+
+.dot {
+  display: flex;
+  height: 20px;
+  margin: 6px 12px;
+  position: relative;
+  width: 20px;
+
+  &::before {
+    border-radius: 50%;
+    content: '';
+    height: 0;
+    left: -2px;
+    position: absolute;
+    top: -2px;
+    width: 0;
+  }
+
+  &::after {
+    background-color: $pink;
+    border: 0;
+    border-radius: 50%;
+    content: '';
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: $width;
+  }
+}

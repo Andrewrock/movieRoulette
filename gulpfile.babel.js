@@ -123,9 +123,12 @@ gulp.task('scripts', () =>
       // Note: Since we are not using useref in the scripts build pipeline,
       //       you need to explicitly list your scripts here in the right order
       //       to be correctly concatenated
+      './app/scripts/angular.min.js',
+      '.app/scripts/angular-route.js',
       './app/scripts/main.js'
       // Other scripts
     ])
+
       .pipe($.newer('.tmp/scripts'))
       .pipe($.sourcemaps.init())
       .pipe($.babel())
@@ -150,15 +153,15 @@ gulp.task('html', () => {
 
     // Minify any HTML
     .pipe($.if('*.html', $.htmlmin({
-      removeComments: true,
-      collapseWhitespace: true,
-      collapseBooleanAttributes: true,
-      removeAttributeQuotes: true,
-      removeRedundantAttributes: true,
-      removeEmptyAttributes: true,
-      removeScriptTypeAttributes: true,
-      removeStyleLinkTypeAttributes: true,
-      removeOptionalTags: true
+      //removeComments: true,
+      //collapseWhitespace: true,
+      //collapseBooleanAttributes: true,
+      //removeAttributeQuotes: true,
+      //removeRedundantAttributes: true,
+      //removeEmptyAttributes: true,
+      //removeScriptTypeAttributes: true,
+      //removeStyleLinkTypeAttributes: true,
+      //removeOptionalTags: true
     })))
     // Output files
     .pipe($.if('*.html', $.size({title: 'html', showFiles: true})))
@@ -195,12 +198,10 @@ gulp.task('serve:dist', ['default'], () =>
   browserSync({
     notify: false,
     logPrefix: 'WSK',
-    // Allow scroll syncing across breakpoints
-    scrollElementMapping: ['main', '.mdl-layout'],
     // Run as an https by uncommenting 'https: true'
     // Note: this uses an unsigned certificate which on first access
     //       will present a certificate warning in the browser.
-    // https: true,
+    https: true,
     server: 'dist',
     port: 3001
   })

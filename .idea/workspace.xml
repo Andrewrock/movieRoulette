@@ -2,7 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13eec45-9954-4e08-8fd7-fa4ead3f199f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/scripts/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/scripts/main.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/scripts/main.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/styles/index.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/hamburger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/touch/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/touch/chrome-touch-icon-192x192.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/touch/icon-128x128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/touch/ms-touch-icon-144x144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/users.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/manifest.webapp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/partials/results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/partials/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/partials/tv-results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/partials/tv-search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/sw/runtime-caching.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/sw/sw-toolbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/service-worker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/styles/index.css.map" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.babel.js" afterPath="$PROJECT_DIR$/gulpfile.babel.js" />
     </list>
     <ignored path="movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +57,7 @@
       <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -38,84 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.babel.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gulpfile.babel.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.74940896">
+              <caret line="206" column="4" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="4" />
               <folding>
-                <element signature="e#154#734#0" expanded="false" />
-                <element signature="e#694#727#0" expanded="false" />
-                <element signature="e#989#8699#0" expanded="false" />
-                <element signature="e#1145#6445#0" expanded="false" />
-                <element signature="e#6640#7152#0" expanded="false" />
-                <element signature="e#7524#7601#0" expanded="false" />
-                <element signature="e#7723#7759#0" expanded="false" />
-                <element signature="e#7819#7890#0" expanded="false" />
-                <element signature="e#8039#8363#0" expanded="false" />
-                <element signature="e#8451#8677#0" expanded="false" />
-                <element signature="e#9064#9188#0" expanded="false" />
-                <element signature="e#9296#9536#0" expanded="false" />
-                <element signature="e#9630#9889#0" expanded="false" />
-                <element signature="e#9982#10223#0" expanded="false" />
-                <element signature="e#10479#11672#0" expanded="false" />
-                <element signature="e#10772#10812#0" expanded="false" />
-                <element signature="e#10874#10944#0" expanded="false" />
-                <element signature="e#11058#11337#0" expanded="false" />
-                <element signature="e#11427#11650#0" expanded="false" />
-                <element signature="e#11740#13383#0" expanded="false" />
-                <element signature="e#12003#12127#0" expanded="false" />
-                <element signature="e#12235#12466#0" expanded="false" />
-                <element signature="e#12561#12816#0" expanded="false" />
-                <element signature="e#12915#13197#0" expanded="false" />
-                <element signature="e#13432#13627#0" expanded="false" />
-                <element signature="e#13670#13888#0" expanded="false" />
+                <element signature="e#5015#5482#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.babelrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4168565">
-              <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/styles/app/movie/movie-grid/_tablet.scss" />
         <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-buttons/_desktop.scss" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/roulette-wheel/_desktop.scss" />
@@ -185,8 +154,9 @@
         <option value="$PROJECT_DIR$/app/partials/search.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/gulpfile.babel.js" />
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/gulpfile.babel.js" />
       </list>
     </option>
   </component>
@@ -331,74 +301,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,17 +395,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33121526" sideWeight="0.56027395" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33121526" sideWeight="0.43972602" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33121526" sideWeight="0.5657534" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33121526" sideWeight="0.43424657" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5383562" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34383562" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3452055" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -556,105 +462,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#154#734#0" expanded="false" />
-            <element signature="e#694#727#0" expanded="false" />
-            <element signature="e#989#8699#0" expanded="false" />
-            <element signature="e#1145#6445#0" expanded="false" />
-            <element signature="e#6640#7152#0" expanded="false" />
-            <element signature="e#7524#7601#0" expanded="false" />
-            <element signature="e#7723#7759#0" expanded="false" />
-            <element signature="e#7819#7890#0" expanded="false" />
-            <element signature="e#8039#8363#0" expanded="false" />
-            <element signature="e#8451#8677#0" expanded="false" />
-            <element signature="e#9064#9188#0" expanded="false" />
-            <element signature="e#9296#9536#0" expanded="false" />
-            <element signature="e#9630#9889#0" expanded="false" />
-            <element signature="e#9982#10223#0" expanded="false" />
-            <element signature="e#10479#11672#0" expanded="false" />
-            <element signature="e#10772#10812#0" expanded="false" />
-            <element signature="e#10874#10944#0" expanded="false" />
-            <element signature="e#11058#11337#0" expanded="false" />
-            <element signature="e#11427#11650#0" expanded="false" />
-            <element signature="e#11740#13383#0" expanded="false" />
-            <element signature="e#12003#12127#0" expanded="false" />
-            <element signature="e#12235#12466#0" expanded="false" />
-            <element signature="e#12561#12816#0" expanded="false" />
-            <element signature="e#12915#13197#0" expanded="false" />
-            <element signature="e#13432#13627#0" expanded="false" />
-            <element signature="e#13670#13888#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#154#734#0" expanded="false" />
-            <element signature="e#694#727#0" expanded="false" />
-            <element signature="e#989#8699#0" expanded="false" />
-            <element signature="e#1145#6445#0" expanded="false" />
-            <element signature="e#6640#7152#0" expanded="false" />
-            <element signature="e#7524#7601#0" expanded="false" />
-            <element signature="e#7723#7759#0" expanded="false" />
-            <element signature="e#7819#7890#0" expanded="false" />
-            <element signature="e#8039#8363#0" expanded="false" />
-            <element signature="e#8451#8677#0" expanded="false" />
-            <element signature="e#9064#9188#0" expanded="false" />
-            <element signature="e#9296#9536#0" expanded="false" />
-            <element signature="e#9630#9889#0" expanded="false" />
-            <element signature="e#9982#10223#0" expanded="false" />
-            <element signature="e#10479#11672#0" expanded="false" />
-            <element signature="e#10772#10812#0" expanded="false" />
-            <element signature="e#10874#10944#0" expanded="false" />
-            <element signature="e#11058#11337#0" expanded="false" />
-            <element signature="e#11427#11650#0" expanded="false" />
-            <element signature="e#11740#13383#0" expanded="false" />
-            <element signature="e#12003#12127#0" expanded="false" />
-            <element signature="e#12235#12466#0" expanded="false" />
-            <element signature="e#12561#12816#0" expanded="false" />
-            <element signature="e#12915#13197#0" expanded="false" />
-            <element signature="e#13432#13627#0" expanded="false" />
-            <element signature="e#13670#13888#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-grid/_desktop.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="20" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-grid/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-checkboxes/_index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125">
@@ -935,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7892272">
           <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,9 +759,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -964,6 +767,9 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -974,17 +780,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.58079624">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.033259425">
           <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding>
             <element signature="e#154#734#0" expanded="false" />
@@ -1017,11 +823,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4168565">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74940896">
+          <caret line="206" column="4" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="4" />
+          <folding>
+            <element signature="e#5015#5482#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

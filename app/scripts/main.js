@@ -7,7 +7,8 @@
    * configure routes
    */
 
-  app.config(function($routeProvider) {
+  app.config(function($routeProvider, $locationProvider) {
+    $locationProvider.hashPrefix('');
     $routeProvider
 
       .when('/', {
@@ -15,7 +16,7 @@
         controller  : 'searchMovies'
       })
 
-      .when('/results/:ID', {
+      .when('/#results/:ID', {
         templateUrl : 'partials/results.html',
         controller  : 'resultMovies'
       })

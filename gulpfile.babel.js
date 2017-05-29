@@ -66,6 +66,7 @@ gulp.task('images', () =>
       interlaced: true
     })))
     .pipe(gulp.dest('dist/images'))
+    .pipe(gulp.dest('docs/images'))
     .pipe($.size({title: 'images'}))
 );
 

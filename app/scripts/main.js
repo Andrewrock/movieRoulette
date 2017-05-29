@@ -20,7 +20,7 @@
         controller  : 'resultMovies'
       })
 
-      .when('/tv/', {
+      .when('/tv', {
         templateUrl : 'partials/tv-search.html',
         controller  : 'searchTv',
         activeTab: 'tv'

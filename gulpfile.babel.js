@@ -78,6 +78,7 @@ gulp.task('copy', () =>
   ], {
     dot: true
   }).pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('docs'))
     .pipe($.size({title: 'copy'}))
 );
 
@@ -112,6 +113,7 @@ gulp.task('styles', () => {
     .pipe($.size({title: 'styles'}))
     .pipe($.sourcemaps.write('./'))
     .pipe(gulp.dest('dist/styles'))
+    .pipe(gulp.dest('docs/styles'))
     .pipe(gulp.dest('.tmp/styles'));
 });
 
@@ -140,6 +142,7 @@ gulp.task('scripts', () =>
       .pipe($.size({title: 'scripts'}))
       .pipe($.sourcemaps.write('.'))
       .pipe(gulp.dest('dist/scripts'))
+      .pipe(gulp.dest('docs/scripts'))
       .pipe(gulp.dest('.tmp/scripts'))
 );
 
@@ -165,7 +168,9 @@ gulp.task('html', () => {
     })))
     // Output files
     .pipe($.if('*.html', $.size({title: 'html', showFiles: true})))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('docs'))
+
 });
 
 // Clean output directory

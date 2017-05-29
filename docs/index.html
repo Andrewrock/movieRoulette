@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Search Movies</title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- font awesome + animate.csss -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!--animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- Your styles -->
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+
+
+  <body>
+  <div ng-app="myApp">
+    <nav ng-controller="headerController">
+      <ul ng-show="isActive('/') || isActive('/tv/')" class="nav-list">
+        <li>
+          <a href="#/" ng-class="{ current: isActive('/')}" class="nav-link">
+            Movies
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 455 455" class="nav-svg">
+                  <path d="M227.5 300c-19.299 0-35 15.701-35 35s15.701 35 35 35 35-15.701 35-35-15.701-35-35-35zM335 192.5c-19.299 0-35 15.701-35 35s15.701 35 35 35 35-15.701 35-35-15.701-35-35-35zM120 192.5c-19.299 0-35 15.701-35 35s15.701 35 35 35 35-15.701 35-35-15.701-35-35-35z"/>
+                  <path d="M455 227.5C455 101.855 353.145 0 227.5 0S0 101.855 0 227.5 101.855 455 227.5 455H455v-30H340.487C408.907 385.774 455 312.021 455 227.5zM227.5 55c35.841 0 65 29.159 65 65s-29.159 65-65 65-65-29.159-65-65 29.159-65 65-65zM55 227.5c0-35.841 29.159-65 65-65s65 29.159 65 65-29.159 65-65 65-65-29.159-65-65zM227.5 400c-35.841 0-65-29.159-65-65s29.159-65 65-65 65 29.159 65 65-29.159 65-65 65zM270 227.5c0-35.841 29.159-65 65-65s65 29.159 65 65-29.159 65-65 65-65-29.159-65-65z"/>
+                  <path d="M227.5 155c19.299 0 35-15.701 35-35s-15.701-35-35-35-35 15.701-35 35 15.701 35 35 35z"/>
+                </svg>
+              </span>
+          </a>
+        </li>
+        <li>
+          <a ng-class="{ current: isActive('/tv/')}" href="/#/tv/" class="nav-link">
+            Tv Shows
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 453.001 453.001" class="nav-svg"><path d="M420.135 110.203H280.09l49.73-81.594c4.31-7.075 2.07-16.305-5.003-20.616-7.073-4.313-16.304-2.072-20.615 5.002l-59.243 97.207h-36.917L148.8 12.996c-4.31-7.072-13.54-9.312-20.615-5.002-7.074 4.312-9.314 13.54-5.002 20.615l49.728 81.593H32.866C14.743 110.203 0 124.946 0 143.067v271.27c0 18.122 14.743 32.865 32.865 32.865h387.27c18.123 0 32.866-14.743 32.866-32.864v-271.27c0-18.122-14.743-32.865-32.865-32.865zm-102.458 264.71c0 9.865-7.998 17.864-17.865 17.864H71.188c-9.866 0-17.864-8-17.864-17.865V182.494c0-9.866 7.998-17.865 17.865-17.865H299.81c9.866 0 17.865 7.998 17.865 17.864v192.418zm66.115-5.71c-17.093 0-31-13.907-31-31 0-17.094 13.907-31 31-31s31 13.906 31 31-13.907 31-31 31zm0-119c-17.093 0-31-13.906-31-31s13.907-31 31-31 31 13.906 31 31-13.907 31-31 31z"/></svg>
+              </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+      <div ng-view></div>
+  </div>
+
+
+  <script src="scripts/main.min.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-96498285-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: { families: ['Inconsolata', 'Open Sans', 'Rubik Mono One', 'Raleway', 'Bungee Shade']}
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+  </body>
+</html>

@@ -47,6 +47,14 @@
       grid-row: 6;
     }
   }
+
+  .cell--fig1 {
+    img {
+      height: auto;
+      max-height: 400px;
+    }
+  }
+
 }
 
 // Desktop Grid//
@@ -132,7 +140,6 @@
 .cell--fig1 {
   img {
     height: auto;
-    max-height: 400px;
   }
 }
 

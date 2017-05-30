@@ -4,15 +4,7 @@
     <list default="true" id="f13eec45-9954-4e08-8fd7-fa4ead3f199f" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/scripts/main.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/scripts/main.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/touch/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/touch/chrome-touch-icon-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/touch/icon-128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/touch/ms-touch-icon-144x144-precomposed.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/touch/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/touch/chrome-touch-icon-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/touch/icon-128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/touch/ms-touch-icon-144x144-precomposed.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/manifest.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/manifest.webapp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/partials/tv-results.html" afterPath="" />
@@ -21,10 +13,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/dist/scripts/main.min.js.map" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/touch/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/touch/chrome-touch-icon-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/touch/icon-128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/touch/ms-touch-icon-144x144-precomposed.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/docs/images/users.svg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/docs/manifest.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/docs/manifest.webapp" afterPath="" />
@@ -34,16 +22,13 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/docs/robots.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/docs/scripts/main.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/docs/scripts/main.min.js.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/scripts/main.js" afterPath="$PROJECT_DIR$/.tmp/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/index.css" afterPath="$PROJECT_DIR$/.tmp/styles/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/index.css.map" afterPath="$PROJECT_DIR$/.tmp/styles/index.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app/movie/movie-buttons/_mobile.scss" afterPath="$PROJECT_DIR$/app/styles/app/movie/movie-buttons/_mobile.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app/movie/movie-grid/_desktop.scss" afterPath="$PROJECT_DIR$/app/styles/app/movie/movie-grid/_desktop.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app/movie/movie-nav/_mobile.scss" afterPath="$PROJECT_DIR$/app/styles/app/movie/movie-nav/_mobile.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app/movie/movie-results/_mobile.scss" afterPath="$PROJECT_DIR$/app/styles/app/movie/movie-results/_mobile.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app/movie/movie-search/_mobile.scss" afterPath="$PROJECT_DIR$/app/styles/app/movie/movie-search/_mobile.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app/movie/roulette-wheel/_mobile.scss" afterPath="$PROJECT_DIR$/app/styles/app/movie/roulette-wheel/_mobile.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app/movie/movie-search/_desktop.scss" afterPath="$PROJECT_DIR$/app/styles/app/movie/movie-search/_desktop.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/index.css" afterPath="$PROJECT_DIR$/dist/styles/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/index.css.map" afterPath="$PROJECT_DIR$/dist/styles/index.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/styles/index.css" afterPath="$PROJECT_DIR$/docs/styles/index.css" />
@@ -68,51 +53,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_mobile.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-search/_mobile.scss">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mobile.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-results/_mobile.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="23.125">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mobile.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-buttons/_mobile.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <element signature="e#6696#7208#0" expanded="false" />
+                <element signature="e#7580#7657#0" expanded="false" />
+                <element signature="e#7779#7815#0" expanded="false" />
+                <element signature="e#7875#7946#0" expanded="false" />
+                <element signature="e#8095#8419#0" expanded="false" />
+                <element signature="e#8507#8733#0" expanded="false" />
+                <element signature="e#8827#10464#0" expanded="false" />
+                <element signature="e#9120#9244#0" expanded="false" />
+                <element signature="e#9352#9592#0" expanded="false" />
+                <element signature="e#9686#9945#0" expanded="false" />
+                <element signature="e#10038#10279#0" expanded="false" />
+                <element signature="e#10535#11728#0" expanded="false" />
+                <element signature="e#10828#10868#0" expanded="false" />
+                <element signature="e#10930#11000#0" expanded="false" />
+                <element signature="e#11114#11393#0" expanded="false" />
+                <element signature="e#11483#11706#0" expanded="false" />
+                <element signature="e#11796#13439#0" expanded="false" />
+                <element signature="e#12059#12183#0" expanded="false" />
+                <element signature="e#12291#12522#0" expanded="false" />
+                <element signature="e#12617#12872#0" expanded="false" />
+                <element signature="e#12971#13253#0" expanded="false" />
+                <element signature="e#13488#13683#0" expanded="false" />
+                <element signature="e#13726#13944#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="_desktop.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-results/_desktop.scss">
+        <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-grid/_desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-31.875">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+              <folding>
+                <element signature="e#185#352#0" expanded="false" />
+                <element signature="e#362#785#0" expanded="false" />
+                <element signature="e#801#867#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="_desktop.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-grid/_desktop.scss">
+        <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-search/_desktop.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68457943">
-              <caret line="134" column="22" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.5607477">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,7 +156,6 @@
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-info/_desktop.scss" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-info/_mobile.scss" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-landing/_desktop.scss" />
-        <option value="$PROJECT_DIR$/app/styles/app/movie/movie-search/_desktop.scss" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-related-results/_mobile.scss" />
         <option value="$PROJECT_DIR$/app/partials/tv-search.html" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-results/_desktop.scss" />
@@ -176,14 +168,15 @@
         <option value="$PROJECT_DIR$/app/partials/search.html" />
         <option value="$PROJECT_DIR$/app/scripts/angular-route.js" />
         <option value="$PROJECT_DIR$/app/404.html" />
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/roulette-wheel/_mobile.scss" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-search/_mobile.scss" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-results/_mobile.scss" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-nav/_mobile.scss" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-buttons/_mobile.scss" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/app/movie/movie-grid/_desktop.scss" />
+        <option value="$PROJECT_DIR$/app/styles/app/movie/movie-search/_desktop.scss" />
       </list>
     </option>
   </component>
@@ -301,8 +294,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,206 +311,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movie-results" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movie-nav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movie-grid" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movie-buttons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -615,13 +408,13 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33121526" sideWeight="0.5806011" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33121526" sideWeight="0.4193989" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33121526" sideWeight="0.58469945" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33121526" sideWeight="0.41530055" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5383562" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3442623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3442623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -959,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7757009">
           <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,38 +782,6 @@
         <state vertical-scroll-proportion="0.36504424">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03318584">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#6697#7209#0" expanded="false" />
-            <element signature="e#7581#7658#0" expanded="false" />
-            <element signature="e#7780#7816#0" expanded="false" />
-            <element signature="e#7876#7947#0" expanded="false" />
-            <element signature="e#8096#8420#0" expanded="false" />
-            <element signature="e#8508#8734#0" expanded="false" />
-            <element signature="e#8828#10465#0" expanded="false" />
-            <element signature="e#9121#9245#0" expanded="false" />
-            <element signature="e#9353#9593#0" expanded="false" />
-            <element signature="e#9687#9946#0" expanded="false" />
-            <element signature="e#10039#10280#0" expanded="false" />
-            <element signature="e#10536#11729#0" expanded="false" />
-            <element signature="e#10829#10869#0" expanded="false" />
-            <element signature="e#10931#11001#0" expanded="false" />
-            <element signature="e#11115#11394#0" expanded="false" />
-            <element signature="e#11484#11707#0" expanded="false" />
-            <element signature="e#11797#13440#0" expanded="false" />
-            <element signature="e#12060#12184#0" expanded="false" />
-            <element signature="e#12292#12523#0" expanded="false" />
-            <element signature="e#12618#12873#0" expanded="false" />
-            <element signature="e#12972#13254#0" expanded="false" />
-            <element signature="e#13489#13684#0" expanded="false" />
-            <element signature="e#13727#13945#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,58 +806,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-search/_desktop.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5541872">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-search/_mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-nav/_mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9626168">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-buttons/_mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28037384">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-results/_mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.125">
+        <state vertical-scroll-proportion="0.92990655">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-buttons/_mobile.scss">
+    <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-search/_mobile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36915886">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-results/_desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-31.875">
+        <state vertical-scroll-proportion="0.8107477">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#6696#7208#0" expanded="false" />
+            <element signature="e#7580#7657#0" expanded="false" />
+            <element signature="e#7779#7815#0" expanded="false" />
+            <element signature="e#7875#7946#0" expanded="false" />
+            <element signature="e#8095#8419#0" expanded="false" />
+            <element signature="e#8507#8733#0" expanded="false" />
+            <element signature="e#8827#10464#0" expanded="false" />
+            <element signature="e#9120#9244#0" expanded="false" />
+            <element signature="e#9352#9592#0" expanded="false" />
+            <element signature="e#9686#9945#0" expanded="false" />
+            <element signature="e#10038#10279#0" expanded="false" />
+            <element signature="e#10535#11728#0" expanded="false" />
+            <element signature="e#10828#10868#0" expanded="false" />
+            <element signature="e#10930#11000#0" expanded="false" />
+            <element signature="e#11114#11393#0" expanded="false" />
+            <element signature="e#11483#11706#0" expanded="false" />
+            <element signature="e#11796#13439#0" expanded="false" />
+            <element signature="e#12059#12183#0" expanded="false" />
+            <element signature="e#12291#12522#0" expanded="false" />
+            <element signature="e#12617#12872#0" expanded="false" />
+            <element signature="e#12971#13253#0" expanded="false" />
+            <element signature="e#13488#13683#0" expanded="false" />
+            <element signature="e#13726#13944#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-grid/_desktop.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68457943">
-          <caret line="134" column="22" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding>
+            <element signature="e#185#352#0" expanded="false" />
+            <element signature="e#362#785#0" expanded="false" />
+            <element signature="e#801#867#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app/movie/movie-search/_desktop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5607477">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>

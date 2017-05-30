@@ -25,7 +25,7 @@ $max-height: $max-width * (nth($max-aspect, 2) / nth($max-aspect, 1));
   flex: 0 0 $width;
   font-family: $bungee;
   font-size: 3.5rem;
-  padding: 12px 0;
+  padding: 24px 0 12px 0;
   text-align: center;
 }
 

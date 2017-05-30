@@ -5,7 +5,7 @@ $search-transition: all .5s;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 36px 12px;
+  padding: 12px;
 
   h1 {
     font-family: $bungee;
@@ -54,12 +54,12 @@ $search-transition: all .5s;
     background-color: $transparent;
     border: 0;
     font-family: $body;
-    font-size: $h4;
+    font-size: $h5;
     width: $width;
 
     &::-webkit-input-placeholder {
       color: $search;
-      font-size: $h4;
+      font-size: $h5;
     }
 
     &:focus {
@@ -69,13 +69,12 @@ $search-transition: all .5s;
 
   i {
     color: $search;
-    font-size: $h2;
+    font-size: $h4;
   }
 }
 
 .random-wrapper {
   flex-flow: row wrap;
-  padding: 24px 0;
 
   .note {
     flex: 0 0 $width;
@@ -90,7 +89,6 @@ $search-transition: all .5s;
   color: $pink;
   font-family: 'Inconsolata', 'Monaco', monospace;
   font-size: $h5;
-  padding: 3px 0;
 
   &:hover {
     color: $pink-hover;
@@ -99,10 +97,6 @@ $search-transition: all .5s;
   &:visited {
     color: $pink-pressed;
   }
-}
-
-.search-advice {
-  margin-bottom: 24px;
 }
 
 @keyframes gradient {
